@@ -1,0 +1,17 @@
+; English <en> to Russian <ru> localization document for `LakeLocationStart` naninovel script
+
+# 81cca336
+; @input name summary:"Choose your name."
+@input name summary:"Выберите имя."
+
+# 3389aa26
+; {name}: I always liked winter.
+{name}: Мне всегда нравилась зима.
+
+# 411349b5
+; Crow: You must go pass your exams, {name}, before its too late.
+Crow: Ты должен пойти сдать экзамены, {name}, пока еще не слишком поздно.
+
+# 388e226
+; @choice "Go to map" goto:Map1
+@choice "Выйти на карту" goto:Map1

@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `LakeLocation2End` naninovel script
+
+# cfe64581
+; {name}: Nothing interesting here.
+{name}: Здесь нет ничего интересного.
+
+# 7a6e627f
+; @choice "Go somewhere else" goto:Map2
+@choice "Пойти в другое место" goto:Map2

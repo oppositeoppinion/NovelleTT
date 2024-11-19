@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `LakeLocation4` naninovel script
+
+# a750492d
+; Crow: Hello, {name}! Now we are friends forever! 
+Crow: Привет, {name}! Теперь мы друзья навеки! 
+
+# f2207d48
+; @choice "Go to map" goto:Map4
+@choice "Выйти на карту" goto:Map4

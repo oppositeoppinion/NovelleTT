@@ -1,0 +1,5 @@
+@back Home
+@char Artem
+{name}: Here my precious attestate, finally i can put it to the shelf.
+@choice "To Map" goto:Map4
+@stop

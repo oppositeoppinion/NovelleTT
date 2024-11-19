@@ -1,0 +1,4 @@
+@back Home
+{name}: Home is empty, I better go somwhere else.
+@choice "To Map" goto:Map3
+@stop

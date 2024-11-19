@@ -1,0 +1,22 @@
+@hideAll
+@activateSchool
+@back Map2
+@choice handler:ButtonArea button:Buttons/School pos:650,-200 goto:.GoSchool
+@choice handler:ButtonArea button:Buttons/Home pos:-750,-400 goto:.GoHome
+@choice handler:ButtonArea button:Buttons/Lake pos:200,-270 goto:.GoLake
+@stop
+
+#GoSchool
+@goto SchoolLocation4 if:ending=="Teacher"
+@goto SchoolLocation4End if:ending!="Teacher"
+@stop
+
+#GoHome
+@goto HomeLocation4 if:ending=="Yourself"
+@goto HomeLocation4End if:ending!="Yourself"
+@stop
+
+#GoLake
+@goto LakeLocation4 if:ending=="Crow"
+@goto LakeLocation4End if:ending!="Crow"
+@stop

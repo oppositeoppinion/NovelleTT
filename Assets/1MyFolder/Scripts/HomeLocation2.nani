@@ -1,0 +1,5 @@
+@back Home
+@char Artem.ArtemSad
+{name}: Thinking of it, i have spend year sof my life for nothing, learning subjects I not interested at all. I dont want to possess this useless Attestate. I better drown it in the Lake. 
+@choice "To Map" goto:Map3
+@stop

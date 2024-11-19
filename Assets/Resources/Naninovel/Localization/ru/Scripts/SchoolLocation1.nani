@@ -1,0 +1,29 @@
+; English <en> to Russian <ru> localization document for `SchoolLocation1` naninovel script
+
+# 9ff52291
+; I dont expect too much from you, {name}, but try your best, even if you was not born to be a scientist. 
+Я не ожидаю от тебя слишом многого, {name}, но ты должен постараться. Даже если ты не прирожденный ученый. 
+
+# 31ff8c0b
+; @choice "Pass the exam" goto:.Exam
+@choice "Сдать Экзамен" goto:.Exam
+
+# 86e7de45
+; ...some time passed...
+…через некоторое время...
+
+# 3fc84707
+; @choice "Take attestate" goto:.TakeAttestate
+@choice "Забрать Аттестат" goto:.TakeAttestate
+
+# 1da6990c
+; Here is my attestate.
+Вот мой Аттестат.
+
+# 5a4807c
+; Teacher: I hope I never see you again, {name}, farewell. And your father would like to see your attestate too.
+Teacher: Надеюсь, что никогда тебя больше не увижу, {name}, всего лучшего. И можешь показать аттестат отцу.
+
+# 56f55d22
+; @choice "Go to map" goto:Map2
+@choice Выйти на карту. goto:Map2

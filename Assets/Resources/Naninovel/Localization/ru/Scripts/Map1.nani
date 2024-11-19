@@ -1,0 +1,10 @@
+; English <en> to Russian <ru> localization document for `Map1` naninovel script
+
+# 1510d3db
+; @choice handler:ButtonArea button:Buttons/School pos:650,-200 goto:SchoolLocation1
+
+# b6b1be45
+; @choice handler:ButtonArea button:Buttons/Home pos:-750,-400 goto:HomeLocation1End
+
+# e525134b
+; @choice handler:ButtonArea button:Buttons/Lake pos:200,-270 goto:LakeLocation1End

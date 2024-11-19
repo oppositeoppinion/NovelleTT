@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `LakeLocation1End` naninovel script
+
+# 3e9c3208
+; {name}: Even my friend Crow not here. Lets move foward.
+{name}: Даже моего друга Ворона нет. Идём дальше.
+
+# c3af114f
+; @choice "Go to Map" goto:Map1
+@choice "Выйти на карту" goto:Map1

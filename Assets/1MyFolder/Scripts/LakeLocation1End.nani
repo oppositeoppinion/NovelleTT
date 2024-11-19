@@ -1,0 +1,4 @@
+@back Winter
+{name}: Even my friend Crow not here. Lets move foward.
+@choice "Go to Map" goto:Map1
+@stop

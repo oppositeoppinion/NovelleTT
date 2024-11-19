@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `HomeLocation3End` naninovel script
+
+# dafb7d5f
+; {name}: Home is empty, I better go somwhere else.
+{name}: Дома никого нет, я лучше пойду куда-нибудь еще.
+
+# a3826441
+; @choice "To Map" goto:Map3choice
+@choice "К карте" goto:Map3choice

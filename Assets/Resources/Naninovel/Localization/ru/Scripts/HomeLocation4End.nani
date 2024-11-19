@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `HomeLocation4End` naninovel script
+
+# ab65f4b4
+; {name}: Thinking of it... now i miss my attestate... 
+{name}: Вообще-то… теперь я скучаю по своему аттестату… 
+
+# f2207d48
+; @choice "Go to map" goto:Map4
+@choice "Выйти на карту" goto:Map4

@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `HomeLocation2` naninovel script
+
+# f920c5d5
+; {name}: Thinking of it, i have spend year sof my life for nothing, learning subjects I not interested at all. I dont want to possess this useless Attestate. I better drown it in the Lake. 
+{name}: Если подумать, я потратил годы своей жизни впустую, изучая предметы, которые мне совсем не интересны. Мне не нужен этот бесполезный Аттестат. Лучше я утоплю его в Озере. 
+
+# b08a650b
+; @choice "To Map" goto:Map3
+@choice "К Карте" goto:Map3

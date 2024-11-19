@@ -1,0 +1,7 @@
+@back Winter
+@char Crow
+Crow: I told you not to come here! 
+@hide Crow
+Crow flew away. 
+@choice "Go to map" goto:Map4
+@stop

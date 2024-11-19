@@ -1,0 +1,5 @@
+@hideAll
+@back ClassRoom
+{name}: Anyone refuses to speak to me.
+@choice "Go to map" goto:Map4
+@stop

@@ -1,0 +1,4 @@
+@back Home
+{name}: Nothing interesting here.
+@choice "Go somewhere else" goto:Map1
+@stop

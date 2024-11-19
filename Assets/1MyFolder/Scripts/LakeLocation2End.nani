@@ -1,0 +1,4 @@
+@back Winter
+{name}: Nothing interesting here.
+@choice "Go somewhere else" goto:Map2
+@stop

@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `SchoolLocation4End` naninovel script
+
+# e4117911
+; {name}: Anyone refuses to speak to me.
+{name}: Никто не хочет разговаривать со мной.
+
+# f2207d48
+; @choice "Go to map" goto:Map4
+@choice "Выйти на карту" goto:Map4

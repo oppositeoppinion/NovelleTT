@@ -1,0 +1,13 @@
+; English <en> to Russian <ru> localization document for `LakeLocation4End` naninovel script
+
+# 868085be
+; Crow: I told you not to come here! 
+Crow: Я же говорил тебе не приходить сюда!  
+
+# 91f2b3c8
+; Crow flew away. 
+Ворон улетел. 
+
+# f2207d48
+; @choice "Go to map" goto:Map4
+@choice "Вернуться на карту" goto:Map4

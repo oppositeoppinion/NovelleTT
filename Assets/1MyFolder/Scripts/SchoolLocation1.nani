@@ -1,0 +1,30 @@
+@deactivateSchool
+@hideAll
+@back ClassRoom
+@char Teacher pos:70,-20
+I dont expect too much from you, {name}, but try your best, even if you was not born to be a scientist. 
+@hideAll
+@choice "Pass the exam" goto:.Exam
+
+@stop
+
+
+#Exam 
+@loadMinigame
+#Exam1
+@hideAll
+@back Sandglass
+@wait 1
+...some time passed...
+@back ClassRoom
+@choice "Take attestate" goto:.TakeAttestate
+@stop
+
+#TakeAttestate
+@wait 1
+@getAttestate
+Here is my attestate.
+@char Teacher pos:70,-20
+Teacher: I hope I never see you again, {name}, farewell. And your father would like to see your attestate too.
+@choice "Go to map" goto:Map2
+@stop

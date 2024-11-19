@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `HomeLocation1End` naninovel script
+
+# cfe64581
+; {name}: Nothing interesting here.
+{name}: Здесь нет ничего интересного.
+
+# c89c208
+; @choice "Go somewhere else" goto:Map1
+@choice "Пойти в другое место" goto:Map1

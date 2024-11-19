@@ -1,0 +1,47 @@
+@hideAll
+@back Winter
+@char Artem.ArtemSad
+{name}: Well i cant actually drow my attestate if the Lake is frozen... 
+@char Artem.ArtemMain
+{name}: Well, anyway lets head home... 
+@hide Artem
+@char Teacher pos:70,0
+Teacher: Stay right here! I heard rumors about you was cheating at exams! Though i have not avidences, give me back your attestate right now, so i can destroy it.
+@char Crow pos:45,25
+Crow: Dont listen to her! Be a rebel to the and leave attestate to yourself. Or at least you can give it to me for my nest.
+@char Artem pos:15,0
+@choice "Give Attestate to Teacher" set:ending="Teacher" goto:.EndingTeacher
+@choice "Leave Attestate for yourself" set:ending="Yourself" goto:.EndingYourself
+@choice "Donate Attestate for Crow's nest" set:ending="Crow" goto:.EndingCrow
+@stop
+
+#EndingTeacher
+@hideAll
+@char Teacher pos:70,0
+Teacher: At least you have a dignity to admit your bad bahaviiur. Good Bye, {name}!
+@giveAttestate
+@char Crow pos:45,25
+Crow: ...
+@choice "Leave the lake" goto:Map4
+@stop
+
+#EndingCrow
+@hideAll
+@char Teacher pos:70,0
+Teacher: How dare you, Artem! I and all mi collegues a very dissapointed with you!
+@giveAttestate
+@char Crow pos:45,25
+Crow: Now my nest is warmer and suits for winter well! Thank you, {name}! 
+@choice "Leave the lake" goto:Map4
+@stop
+
+#EndingYourself
+@hideAll
+@char Artem pos:15,0
+{name}: Dont tell me what to do, I smart enough by myself. And my motto is "Give your possessions to nobody"
+@char Teacher pos:70,0
+Teacher: How dare you, {name}! I and all mi collegues a very dissapointed with you!
+@char Crow pos:45,25
+Crow: You live in a warm house, you cant understand... Dont come to my Lake ever again!
+@choice "Leave the lake" goto:Map4
+@stop

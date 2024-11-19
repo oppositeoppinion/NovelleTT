@@ -1,0 +1,69 @@
+; English <en> to Russian <ru> localization document for `LakeLocation3` naninovel script
+
+# c4354979
+; {name}: Well i cant actually drow my attestate if the Lake is frozen... 
+{name}: У меня не получится утопить Аттестат в замерзшем озере…  
+
+# 583b6f19
+; {name}: Well, anyway lets head home... 
+{name}: Ну и ладно, пойду домой. 
+
+# aef37835
+; Teacher: Stay right here! I heard rumors about you was cheating at exams! Though i have not avidences, give me back your attestate right now, so i can destroy it.
+Teacher: А ну стой! До меня дошел слух, что ты списывал на экзаменах! И хоть у меня нет доказательств, давай сюда свой Аттестат, я его уничтожу!
+
+# ccba3cf8
+; Crow: Dont listen to her! Be a rebel to the and leave attestate to yourself. Or at least you can give it to me for my nest.
+Crow: Не слушай её! Если уж решил жульничать - иди до конца, оставь Аттестат себе. Или дай его мне, я утеплю им гнездо!
+
+# ace433c1
+; @choice "Give Attestate to Teacher" set:ending="Teacher" goto:.EndingTeacher
+@choice "Отдать Аттестатт учителю" set:ending="Teacher" goto:.EndingTeacher
+
+# fd44abab
+; @choice "Leave Attestate for yourself" set:ending="Yourself" goto:.EndingYourself
+@choice "Оставить Аттестат себе" set:ending="Yourself" goto:.EndingYourself
+
+# 471d2e74
+; @choice "Donate Attestate for Crow's nest" set:ending="Crow" goto:.EndingCrow
+@choice "Пожертвовать Аттестат на благоустройство гнезда" set:ending="Crow" goto:.EndingCrow
+
+# 9e8eb699
+; Teacher: At least you have a dignity to admit your bad bahaviiur. Good Bye, {name}!
+Teacher: По крайней мере у тебя есть мужество признать своё  плохое поведение. Прощай, {name}!
+
+# cd4fabf5
+; Crow: ...
+Crow: …
+
+# d9fb8c93
+; @choice "Leave the lake" goto:Map4
+@choice "Покинать Озеро" goto:Map4
+
+# 6a0b2dba
+; Teacher: How dare you, Artem! I and all mi collegues a very dissapointed with you!
+Teacher: Да как ты смеешь! {name}! Мы с коллегами крайне разочарованны в тебе!
+
+# 62f3f13b
+; Crow: Now my nest is warmer and suits for winter well! Thank you, {name}! 
+Crow: Теперь моё гнездо тёплое, и больше подходит для зимы! Спасибо, {name}! 
+
+# d9fb8c93
+; @choice "Leave the lake" goto:Map4
+@choice "Покинуть Озеро" goto:Map4
+
+# 1988d37c
+; {name}: Dont tell me what to do, I smart enough by myself. And my motto is "Give your possessions to nobody"
+{name}: Не надо указывать мне, что делать, я и сам достаточно умный. А мой девиз гласит: "Никому не отдавай свои вещи"
+
+# 5c5359e
+; Teacher: How dare you, {name}! I and all mi collegues a very dissapointed with you!
+Teacher: Да как ты смеешь! {name}! Мы с коллегами крайне разочарованны в тебе!
+
+# 602b90c6
+; Crow: You live in a warm house, you cant understand... Dont come to my Lake ever again!
+Crow: Ты живешь в тёплом доме, тебя меня не понять… Никогда больше не приходи на моё озеро!
+
+# d9fb8c93
+; @choice "Leave the lake" goto:Map4
+@choice "Покинуть Озеро" goto:Map4

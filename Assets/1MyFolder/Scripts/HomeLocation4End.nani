@@ -1,0 +1,5 @@
+@back Home
+@char Artem.ArtemSad
+{name}: Thinking of it... now i miss my attestate... 
+@choice "Go to map" goto:Map4
+@stop

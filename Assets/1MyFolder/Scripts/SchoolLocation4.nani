@@ -1,0 +1,6 @@
+@hideAll
+@back ClassRoom
+@char Teacher pos:70,-20
+Teacher:I admit your honestness, {name}, and i believe in your bright feature.
+@choice "Go to map" goto:Map4
+@stop

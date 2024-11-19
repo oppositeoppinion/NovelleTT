@@ -1,0 +1,12 @@
+#Start
+@activateSchool
+@back Winter
+@input name summary:"Choose your name."
+@stop
+@char Artem pos:50,-10
+{name}: I always liked winter.
+@char Artem pos:20,-10
+@char Crow pos:80,-20
+Crow: You must go pass your exams, {name}, before its too late.
+@choice "Go to map" goto:Map1
+@stop

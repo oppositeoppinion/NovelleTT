@@ -1,0 +1,5 @@
+@back Winter
+@char Crow
+Crow: Hello, {name}! Now we are friends forever! 
+@choice "Go to map" goto:Map4
+@stop

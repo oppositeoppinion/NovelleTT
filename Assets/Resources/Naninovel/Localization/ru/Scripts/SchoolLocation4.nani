@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `SchoolLocation4` naninovel script
+
+# ad20cae7
+; Teacher:I admit your honestness, {name}, and i believe in your bright feature.
+Я признаю твою честность, {name}, я уверена, что тебя ждет прекрасное будущее.
+
+# f2207d48
+; @choice "Go to map" goto:Map4
+@choice "Выйти на карту" goto:Map4

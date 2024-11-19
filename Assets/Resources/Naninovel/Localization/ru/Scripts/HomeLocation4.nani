@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `HomeLocation4` naninovel script
+
+# 59548a42
+; {name}: Here my precious attestate, finally i can put it to the shelf.
+{name}: Вот мой драгоценный аттестат, наконец-то я могу засунуть его на полку.
+
+# 1c470ba5
+; @choice "To Map" goto:Map4
+@choice "К карте" goto:Map4

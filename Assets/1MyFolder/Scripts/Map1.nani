@@ -1,0 +1,6 @@
+@hideAll
+@back Map2
+@choice handler:ButtonArea button:Buttons/School pos:650,-200 goto:SchoolLocation1
+@choice handler:ButtonArea button:Buttons/Home pos:-750,-400 goto:HomeLocation1End
+@choice handler:ButtonArea button:Buttons/Lake pos:200,-270 goto:LakeLocation1End
+@stop
